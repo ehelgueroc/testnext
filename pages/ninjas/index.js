@@ -1,8 +1,15 @@
+import Head from 'next/head'
+
 function index() {
     return (
-        <div>
-            <h1>Ninja List</h1>
-        </div>
+        <>
+            <Head>
+                <title>Ninja List | List </title>
+            </Head>
+            <div>
+                <h1>Ninja List</h1>
+            </div>
+        </>
     )
 }
 
